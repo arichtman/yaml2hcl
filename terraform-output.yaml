@@ -1,0 +1,61 @@
+client_vpn_cidr: 192.168.208.0/20
+transit_vpc_cidr: 10.16.0.0/16
+
+remote_peering_connections:
+  Ireland:
+    peering_connection_ids:
+      vpc-0022b6d8603cde115: pcx-07599abdf155c14aa
+      vpc-01b62e9ea38c1ab0b: pcx-057ee2fd8a14682a8
+      vpc-087859d423d9455e5: pcx-06fec6a1d24acd545
+      vpc-2f4b124a: pcx-0557c879f0570f15a
+      vpc-60bf9404: pcx-063947587a8fe2a2c
+      vpc-6aee5303: pcx-0bd8801fead8780b3
+      vpc-8fc4a4ea: pcx-0e5be25429b066db1
+      vpc-922cc4f5: pcx-093d0573a963e1f63
+      vpc-a1a48fc5: pcx-0d65f87fdf0e966aa
+      vpc-da4f13bf: pcx-033f84db7d6c893f1
+    region: eu-west-1
+    vpc_cidr: 10.16.64.0/18
+    vpc_id: vpc-03bff74367538a1af
+  N. Virginia:
+    peering_connection_ids:
+      vpc-0022b6d8603cde115: pcx-09826a9aa65294986
+      vpc-01b62e9ea38c1ab0b: pcx-0ced8135c48a45a7d
+      vpc-087859d423d9455e5: pcx-0a8747c83f3b86a42
+      vpc-2f4b124a: pcx-0afc92d200ad9a2a5
+      vpc-60bf9404: pcx-0072deedfdfd8fcab
+      vpc-6aee5303: pcx-036ebbb936e10d586
+      vpc-8fc4a4ea: pcx-037d90b0d902a8cff
+      vpc-922cc4f5: pcx-09aa901ab84cf1621
+      vpc-a1a48fc5: pcx-00ae385106a5795a8
+      vpc-da4f13bf: pcx-0c16732d07c474252
+    region: us-east-1
+    vpc_cidr: 10.16.128.0/18
+    vpc_id: vpc-0e094fbe7fd8ee535
+  Sydney:
+    peering_connection_ids:
+      vpc-0022b6d8603cde115: pcx-0a4031aacfe3f2f9c
+      vpc-01b62e9ea38c1ab0b: pcx-0ffea543db3d244b2
+      vpc-087859d423d9455e5: pcx-0e3d8087005e0e854
+      vpc-2f4b124a: pcx-0116d7bb0e40929e3
+      vpc-60bf9404: pcx-0e2addac41b9be20c
+      vpc-6aee5303: pcx-0c2805e759e3e4162
+      vpc-8fc4a4ea: pcx-045d6f8b26304d56f
+      vpc-922cc4f5: pcx-037e5c474851e2c7c
+      vpc-a1a48fc5: pcx-01cb2735d5c1c5843
+      vpc-da4f13bf: pcx-082e7f9a2b759f857
+    region: ap-southeast-2
+    vpc_cidr: 10.16.0.0/18
+    vpc_id: vpc-06fc5f51be4b43c2c
+
+transit_vpc_ids:
+  ap-southeast-2: vpc-06fc5f51be4b43c2c
+  eu-west-1: vpc-03bff74367538a1af
+  us-east-1: vpc-0e094fbe7fd8ee535
+
+vpn_subdomain_ns_records:
+  - ns-1283.awsdns-32.org
+  - ns-145.awsdns-18.com
+  - ns-1943.awsdns-50.co.uk
+  - ns-560.awsdns-06.net
+  
